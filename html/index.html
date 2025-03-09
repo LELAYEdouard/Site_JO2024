@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Site officiel des Jeux Olympiques de Paris 2024. Découvrez les disciplines, les épreuves, les sportifs, les sites des épreuves et bien plus encore."
+    />
+    <meta
+      name="keywords"
+      content="Jeux Olympiques, Paris 2024, sports, disciplines, épreuves, sportifs, sites, paralympiques, comité"
+    />
+    <meta name="author" content="DOOM Timéo" />
+    <meta property="og:title" content="Jeux Olympiques Paris 2024" />
+    <meta
+      property="og:description"
+      content="Découvrez les disciplines, les épreuves, les sportifs, les sites des épreuves et bien plus encore sur le site officiel des Jeux Olympiques de Paris 2024."
+    />
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
+    <title>JO Paris 2024</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/accueil.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Menu hamburger pour les écrans plus petits -->
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+          <li><a class="menu__item" href="./index.html">Accueil</a></li>
+          <li>
+            <a class="menu__item" href="./discipline.html">Disciplines</a>
+          </li>
+          <li><a class="menu__item" href="./epreuve.html">Épreuves</a></li>
+          <li><a class="menu__item" href="#">Les sportifs</a></li>
+          <li><a class="menu__item" href="#">Sites des épreuves</a></li>
+          <li><a class="menu__item" href="#">Les jeux paralympiques</a></li>
+          <li><a class="menu__item" href="#">Comité Paris 2024</a></li>
+        </ul>
+      </div>
+      <!-- Menu en ligne pour les écrans plus grands -->
+      <nav>
+        <a href="./index.html"
+          ><img src="../images/logo.png" alt="logo JO 2024" title="logo"
+        /></a>
+        <ul>
+          <li><a href="./discipline.html">Disciplines</a></li>
+          <li><a href="./epreuve.html">Épreuves</a></li>
+          <li><a href="#">Les sportifs</a></li>
+          <li><a href="#">Sites des épreuves</a></li>
+          <li><a href="#">Les jeux paralympiques</a></li>
+          <li><a href="#">Comité Paris 2024</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- informations générales sur les JO 2024 -->
+      <video autoplay preload="auto">
+        <source src="../vidéos/background_video.mp4" type="video/mp4" />
+        <p>Votre navigateur ne prend pas en charge les vidéos</p>
+      </video>
+      <article class="intro">
+        <h1>Paris 2024</h1>
+        <p>
+          Les Jeux Olympiques de 2024 à Paris vont bien au-delà du sport,
+          célébrant les valeurs d’excellence, de respect et de solidarité pour
+          un monde plus uni. Avec le slogan “Ouvrons grand les Jeux”, ils visent
+          à inspirer des générations et à créer un impact durable sur les plans
+          culturel, économique, et environnemental.
+        </p>
+      </article>
+
+      <section>
+        <article>
+          <h1>Medailles Olympique par continent</h1>
+          <div class="olympic-rings-top">
+            <!-- Médailles par continent -->
+            <div class="medailles europe">
+              <h2>Europe 309</h2>
+              <div>
+                <p>97</p>
+                <p>95</p>
+                <p>117</p>
+              </div>
+            </div>
+
+            <div class="medailles africa">
+              <h2>Afrique 39</h2>
+              <div>
+                <p>13</p>
+                <p>12</p>
+                <p>14</p>
+              </div>
+            </div>
+
+            <div class="medailles america">
+              <h2>Amérique 132</h2>
+              <div>
+                <p>46</p>
+                <p>44</p>
+                <p>42</p>
+              </div>
+            </div>
+            <div class="ring blue"></div>
+            <div class="ring black"></div>
+            <div class="ring red"></div>
+          </div>
+
+          <div class="olympic-rings-bottom">
+            <div class="ring yellow"></div>
+            <div class="ring green"></div>
+
+            <div class="medailles asia">
+              <h2>Asie 119</h2>
+              <div>
+                <p>49</p>
+                <p>39</p>
+                <p>41</p>
+              </div>
+            </div>
+
+            <div class="medailles oceania">
+              <h2>Océanie 74</h2>
+              <div>
+                <p>29</p>
+                <p>27</p>
+                <p>19</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="responsive-ring">
+          <!-- Anneaux olympiques pour les écrans plus petits -->
+          <div class="resp-ring UE-ring">
+            <p>
+              <span class="ue">Europe 309</span><br />
+              97 95 117
+            </p>
+          </div>
+          <div class="resp-ring AF-ring">
+            <p>
+              <span class="af">Afrique 39</span><br />
+              13 12 14
+            </p>
+          </div>
+          <div class="resp-ring US-ring">
+            <p>
+              <span class="us">Amérique 132</span><br />
+              46 44 42
+            </p>
+          </div>
+          <div class="resp-ring AS-ring">
+            <p>
+              <span class="as">Asie 119</span><br />
+              49 39 41
+            </p>
+          </div>
+          <div class="resp-ring OC-ring">
+            <p>
+              <span class="oc">Océanie 74</span><br />
+              28 27 19
+            </p>
+          </div>
+        </article>
+
+        <section>
+          <h1>Les catégories sportives</h1>
+          <!-- Cartes des catégories sportives (code dupliqué afin de créer des cartes) -->
+          <article id="card">
+            <div>
+              <div>
+                <img
+                  src="../images/accueil_images/categories_sportives/boxe.png"
+                  title="illustration sport boxe"
+                  alt="illustration boxe"
+                />
+                <p>Sports de combat</p>
+              </div>
+              <img
+                class="fleche"
+                src="../images/fleche.png"
+                title="icone fleche"
+                alt="flecha bas"
+              />
+            </div>
+            <p id="content">
+              Ils mettent en avant la discipline, la maîtrise de soi et la
+              stratégie. Ces sports sont un symbole de courage et d’endurance.
+            </p>
+          </article>
+
+          <article id="card">
+            <div>
+              <div>
+                <img
+                  src="../images/accueil_images/categories_sportives/natation.png"
+                  title="illustration natation"
+                  alt="illustration natation"
+                />
+                <p>Natation</p>
+              </div>
+              <img
+                class="fleche"
+                src="../images/fleche.png"
+                title="icone fleche"
+                alt="flecha bas"
+              />
+            </div>
+            <p id="content">
+              Elle illustre la quête de performance et l’exploration des limites
+              physiques humaines. La natation célèbre aussi l’universalité de
+              l’eau, présente dans toutes les cultures.
+            </p>
+          </article>
+
+          <article id="card">
+            <div>
+              <div>
+                <img
+                  src="../images/accueil_images/categories_sportives/saut.png"
+                  title="illustration saut"
+                  alt="illustration saut"
+                />
+                <p>Saut</p>
+              </div>
+              <img
+                class="fleche"
+                src="../images/fleche.png"
+                title="icone fleche"
+                alt="flecha bas"
+              />
+            </div>
+            <p id="content">
+              Le saut incarne l’agilité et le dépassement des limites physiques.
+              C’est une discipline qui fascine par son audace et sa précision.
+            </p>
+          </article>
+
+          <article id="card">
+            <div>
+              <div>
+                <img
+                  src="../images/accueil_images/categories_sportives/cyclisme.png"
+                  title="illustration cyclisme"
+                  alt="illustration cyclisme"
+                />
+                <p>Cyclisme</p>
+              </div>
+              <img
+                class="fleche"
+                src="../images/fleche.png"
+                title="icone fleche"
+                alt="flecha bas"
+              />
+            </div>
+            <p id="content">
+              Ce sport reflète l’endurance, la vitesse et la gestion stratégique
+              de l’effort. Il est aussi une vitrine des paysages mondiaux et de
+              la technologie sportive.
+            </p>
+          </article>
+
+          <article id="card">
+            <div>
+              <div>
+                <img
+                  src="../images/accueil_images/categories_sportives/course.png"
+                  title="illustration course"
+                  alt="illustration course"
+                />
+                <p>Course</p>
+              </div>
+              <img
+                class="fleche"
+                src="../images/fleche.png"
+                title="icone fleche"
+                alt="flecha bas"
+              />
+            </div>
+            <p id="content">
+              La course symbolise l’essence même de la compétition et du
+              dépassement de soi. C’est une discipline universelle, accessible à
+              tous.
+            </p>
+          </article>
+
+          <article id="card">
+            <div>
+              <div>
+                <img
+                  src="../images/accueil_images/categories_sportives/sport-co.png"
+                  title="illustration Sports co"
+                  alt="illustration Sports co"
+                />
+                <p>Sports co</p>
+              </div>
+              <img
+                class="fleche"
+                src="../images/fleche.png"
+                title="icone fleche"
+                alt="flecha bas"
+              />
+            </div>
+            <p id="content">
+              Ils valorisent la coopération, l’esprit d’équipe et le respect de
+              l’adversaire. Ces sports rapprochent les cultures et inspirent la
+              solidarité.
+            </p>
+          </article>
+
+          <article id="card">
+            <div>
+              <div>
+                <img
+                  src="../images/accueil_images/categories_sportives/eau.png"
+                  title="illustration Sports d'eau"
+                  alt="illustration Sports d'eau"
+                />
+                <p>Sports d'eau</p>
+              </div>
+              <img
+                class="fleche"
+                src="../images/fleche.png"
+                title="icone fleche"
+                alt="flecha bas"
+              />
+            </div>
+            <p id="content">
+              Ils célèbrent la puissance et la grâce dans un élément essentiel à
+              la vie. Ces disciplines allient technique et connexion avec la
+              nature.
+            </p>
+          </article>
+
+          <article id="card">
+            <div>
+              <div>
+                <img
+                  src="../images/accueil_images/categories_sportives/raquette.png"
+                  title="illustration sports de raquette"
+                  alt="illustration sports de raquette"
+                />
+                <p>Sports de raquette</p>
+              </div>
+              <img
+                class="fleche"
+                src="../images/fleche.png"
+                title="icone fleche"
+                alt="flecha bas"
+              />
+            </div>
+            <p id="content">
+              Ces sports requièrent précision, rapidité et réflexion
+              stratégique. Ils mettent en lumière des duels passionnants et
+              captivants.
+            </p>
+          </article>
+
+          <article id="card">
+            <div>
+              <div>
+                <img
+                  src="../images/accueil_images/categories_sportives/multisports.png"
+                  title="illustration multisports"
+                  alt="illustration multisports"
+                />
+                <p>Multisports</p>
+              </div>
+              <img
+                class="fleche"
+                src="../images/fleche.png"
+                title="icone fleche"
+                alt="flecha bas"
+              />
+            </div>
+            <p id="content">
+              Les épreuves combinées démontrent la polyvalence et la résilience
+              des athlètes. Elles sont un concentré de défis physiques et
+              mentaux.
+            </p>
+          </article>
+
+          <article id="card">
+            <div>
+              <div>
+                <img
+                  src="../images/accueil_images/categories_sportives/gym.png"
+                  title="illustration Gymnastique"
+                  alt="illustration Gymnastique"
+                />
+                <p>Gymnastique</p>
+              </div>
+              <img
+                class="fleche"
+                src="../images/fleche.png"
+                title="icone fleche"
+                alt="flecha bas"
+              />
+            </div>
+            <p id="content">
+              Elle sublime l’expression corporelle à travers la grâce, la force
+              et l’équilibre. C’est une discipline qui mélange art et
+              performance sportive.
+            </p>
+          </article>
+
+          <article id="card">
+            <div>
+              <div>
+                <img
+                  src="../images/accueil_images/categories_sportives/escrime.png"
+                  title="illustration escrime"
+                  alt="illustration escrime"
+                />
+                <p>Escrime</p>
+              </div>
+              <img
+                class="fleche"
+                src="../images/fleche.png"
+                title="icone fleche"
+                alt="flecha bas"
+              />
+            </div>
+            <p id="content">
+              L’escrime symbolise l’élégance, la rapidité et la tactique. Elle
+              perpétue une tradition chevaleresque ancrée dans l’histoire.
+            </p>
+          </article>
+
+          <article id="card">
+            <div>
+              <div>
+                <img
+                  src="../images/accueil_images/categories_sportives/equitation.png"
+                  title="illustration équitation"
+                  alt="illustration Équitation"
+                />
+                <p>Équitation</p>
+              </div>
+              <img
+                class="fleche"
+                src="../images/fleche.png"
+                title="icone fleche"
+                alt="flecha bas"
+              />
+            </div>
+            <p id="content">
+              Elle met en lumière le lien unique entre l’homme et l’animal. Ce
+              sport mêle harmonie, technique et respect de la nature.
+            </p>
+          </article>
+        </section>
+
+        <article>
+          <h1>Les sites des épreuves</h1>
+
+          <div class="carousel">
+            <div class="carousel-container">
+              <!-- Carousel des sites des épreuves -->
+              <div class="carousel-item">
+                <div class="carousel-content">
+                  <div class="carousel-text">
+                    <h2>Arena Paris sud</h2>
+                    <p>
+                      L'Arena Paris Sud fait partie de Paris Expo, centre
+                      d'exposition et de convention parmi les plus actifs
+                      d'Europe et le plus fréquenté de France. Paris Expo, c’est
+                      une zone de 35 hectares, 228 000 m² de halls d'exposition,
+                      7 pavillons qui accueillent 7,5 millions de visiteurs
+                      chaque année.
+                    </p>
+                  </div>
+                  <div class="carousel-image">
+                    <img
+                      src="../images/accueil_images/arena_paris_sud.png"
+                      title="photo Arena Paris sud"
+                      alt="Arena Paris sud"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-content">
+                  <div class="carousel-text">
+                    <h2>Marina de Marseille</h2>
+                    <p>
+                      Pour les épreuves de voile, Paris 2024 navigue sur la
+                      Méditerranée. De par sa situation géographique, Marseille
+                      est une ville naturellement tournée vers la mer, qui offre
+                      des conditions de navigation exceptionnelles.
+                    </p>
+                  </div>
+                  <div class="carousel-image">
+                    <img
+                      src="../images/accueil_images/port.png"
+                      title="photo Marina de Marseille"
+                      alt="Marina de Marseile"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-content">
+                  <div class="carousel-text">
+                    <h2>Colline d'Elancourt</h2>
+                    <p>
+                      S’élevant à 231 mètres d’altitude, la colline d’Elancourt
+                      est le point culminant de la région parisienne. Son sommet
+                      offre une vue imprenable sur la Tour Eiffel, la Défense et
+                      les forêts environnant Paris. Aucune infrastructure
+                      majeure ne sera créée sur place, dans un souci de moindre
+                      effet sur la biodiversité du site.
+                    </p>
+                  </div>
+                  <div class="carousel-image">
+                    <img
+                      src="../images/accueil_images/velo.png"
+                      title="photo Colline d'Elancourt"
+                      alt="Exemple 3"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <h1>Cartes des sites des épreuves</h1>
+          <!-- Carte interactive des sites des épreuves -->
+          <iframe
+            src="https://vdugrain.carto.com/viz/01ea6440-cde5-4927-91fe-bac349686a5b/embed_map"
+          ></iframe>
+        </article>
+
+        <article>
+          <h1>Les partenaires de Paris 2024</h1>
+          <!-- Logos des partenaires -->
+          <div class="partenaires">
+            <img
+              src="../images/accueil_images/sponsors/sponADP.png"
+              title="sponsor groupe ADP"
+              alt="logo sponsor groupe ADP"
+            />
+            <img
+              src="../images/accueil_images/sponsors/sponAIR.png"
+              title="sponsor airfrance"
+              alt="logo sponsor airfrance"
+            />
+            <img
+              src="../images/accueil_images/sponsors/sponarce.png"
+              title="sponsor arcelorMittal"
+              alt="logo sponsor arcelorMittal"
+            />
+            <img
+              src="../images/accueil_images/sponsors/sponCMA.png"
+              title="sponsor cma cgm"
+              alt="logo sponsor cma cgm"
+            />
+            <img
+              src="../images/accueil_images/sponsors/sponDan.png"
+              title="sponsor danone"
+              alt="logo sponsor danone"
+            />
+            <img
+              src="../images/accueil_images/sponsors/sponDeca.png"
+              title="sponsor decathlon"
+              alt="logo sponsor decathlon"
+            />
+            <img
+              src="../images/accueil_images/sponsors/sponFDJ.png"
+              title="sponsor fdj"
+              alt="logo sponsor fdj"
+            />
+            <img
+              src="../images/accueil_images/sponsors/sponGL.png"
+              title="sponsor gl events"
+              alt="logo sponsor gl events"
+            />
+            <img
+              src="../images/accueil_images/sponsors/sponParis.png"
+              title="sponsor île de France mobilités"
+              alt="logo sponsor île de France mobilités"
+            />
+            <img
+              src="../images/accueil_images/sponsors/sponSport.png"
+              title="sponsor le coq sportif"
+              alt="logo sponsor le coq sportif"
+            />
+            <img
+              src="../images/accueil_images/sponsors/sponPWC.png"
+              title="sponsor pwc"
+              alt="logo sponsor pwc"
+            />
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- Section pied de page -->
+    <footer>
+      <section>
+        <!-- Logo et bouton de retour en haut de page -->
+        <img src="../images/logo.png" title="logo JO" alt="logo JO" />
+        <a href="#">
+          <img
+            src="../images/fleche.png"
+            alt="flèche pour remonter en haut de la page"
+            title="icône flèche"
+          />
+        </a>
+      </section>
+      <section>
+        <!-- Plan du site -->
+        <div class="plan">
+          <h3>Plan du site</h3>
+          <ul>
+            <li><a href="./index.html">Accueil</a></li>
+            <li><a href="./discipline.html">Discipline</a></li>
+            <li><a href="./epreuve.html">Épreuve</a></li>
+            <li><a href="#">Les sportifs</a></li>
+            <li><a href="#">Sites des épreuves</a></li>
+            <li><a href="#">Jeux paralympiques</a></li>
+            <li><a href="#">Comité Paris 2024</a></li>
+          </ul>
+        </div>
+        <!-- Informations de contact -->
+        <div>
+          <h3>Nous contacter</h3>
+          <address>
+            <a href="mailto:timeodoom@gmail.com">mail@mail.com</a>
+          </address>
+        </div>
+      </section>
+      <!-- Avis de droit d'auteur -->
+      <p>
+        © 2024 Olympiques. Tous droits réservés. (site web fictif réalisé par
+        Timéo DOOM - Edouard LE LAY - Louennig CORREC)
+      </p>
+      <section>
+        <!-- Liens légaux et politiques -->
+        <ul>
+          <li>Gestion des cookies</li>
+          <li>Données personnelles</li>
+          <li>Conditions générales</li>
+          <li>Mentions légales</li>
+        </ul>
+      </section>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>

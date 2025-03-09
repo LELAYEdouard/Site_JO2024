@@ -1,0 +1,394 @@
+/* Style pour la vidéo en arrière-plan */
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+/* Style pour la section d'introduction */
+main .intro {
+  color: white;
+  width: 80%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Style pour le titre principal de l'article */
+main article h1 {
+  margin-bottom: 80px;
+}
+
+/* Style pour la section principale du contenu */
+main > section {
+  margin-top: 100vh;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+
+/* Style général pour les titres */
+h1 {
+  font-size: 38px;
+  text-align: center;
+  position: relative;
+}
+
+/* Style pour les iframes */
+iframe {
+  width: 70%;
+  height: 40em;
+}
+
+/* Style pour le titre de l'introduction */
+.intro h1 {
+  font-size: 70px;
+}
+
+/* Padding pour les articles et sections du contenu principal */
+main section article,
+main section > section {
+  padding-top: 125px;
+}
+
+/* Style pour le conteneur des anneaux olympiques */
+.olympic-rings-top,
+.olympic-rings-bottom {
+  display: grid;
+  gap: 0px 17px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.olympic-rings-top {
+  grid-template-columns: repeat(3, 1fr);
+  width: 60%;
+}
+
+.olympic-rings-bottom {
+  grid-template-columns: repeat(2, 1fr);
+  width: 40%;
+}
+
+/* Style pour les anneaux individuels */
+.ring {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* Styles pour les anneaux de différentes couleurs */
+.ring.blue {
+  box-shadow: inset 0 0 0 30px #0378b6;
+}
+.ring.black {
+  box-shadow: inset 0 0 0 2.7px black;
+}
+.ring.red {
+  box-shadow: inset 0 0 0 15.5px #d4354a;
+}
+.ring.yellow {
+  box-shadow: inset 0 0 0 19.4px #e6a12e;
+  transform: translateY(-40%);
+}
+.ring.green {
+  box-shadow: inset 0 0 0 5.1px #03984d;
+  transform: translateY(-40%);
+}
+
+/* Style pour la section des médailles */
+.medailles {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  display: grid;
+}
+
+/* Style pour les titres des médailles */
+.medailles h2 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Style pour le conteneur des médailles */
+.medailles div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Styles pour les titres des différents continents */
+.europe h2 {
+  color: #0378b6;
+}
+.africa h2 {
+  color: black;
+}
+.america h2 {
+  color: #d4354a;
+}
+.asia h2 {
+  color: #e6a12e;
+}
+.oceania h2 {
+  color: #03984d;
+}
+
+/* Ajustements pour les médailles de l'Asie et de l'Océanie */
+.medailles.asia,
+.medailles.oceania {
+  margin-top: -50px;
+}
+
+/* Style réactif pour les anneaux */
+.responsive-ring {
+  margin-top: -150px;
+}
+
+/* Style pour les anneaux réactifs */
+.responsive-ring .resp-ring {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 30px auto 0;
+  position: relative;
+}
+
+/* Style pour le texte à l'intérieur des anneaux réactifs */
+.resp-ring p {
+  font-weight: 700;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Style pour le span à l'intérieur du texte des anneaux réactifs */
+.resp-ring p span {
+  display: block;
+}
+
+/* Styles pour le texte des différents continents à l'intérieur des anneaux réactifs */
+.resp-ring p .ue {
+  color: #0378b6;
+}
+.resp-ring p .us {
+  color: #d4354a;
+}
+.resp-ring p .as {
+  color: #e6a12e;
+}
+.resp-ring p .oc {
+  color: #03984d;
+}
+
+/* Styles pour les anneaux des différents continents */
+.UE-ring {
+  border: 30px solid #0378b6;
+}
+.AF-ring {
+  border: 30px solid #000;
+}
+.US-ring {
+  border: 30px solid #d4354a;
+}
+.AS-ring {
+  border: 30px solid #e6a12e;
+}
+.OC-ring {
+  border: 30px solid #03984d;
+}
+
+/* Style pour les cartes dans la section principale du contenu */
+main section section:nth-child(3) article {
+  background-color: #f5fafb;
+  width: 60%;
+  height: 90px;
+  border-radius: 30px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 20px;
+  padding: 20px 25px 0 25px;
+  cursor: pointer;
+}
+
+/* Style pour le premier enfant du div de la carte */
+#card div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Style pour la flèche à l'intérieur de l'article */
+section article .fleche {
+  width: 31px;
+  height: 18px;
+}
+
+/* Style pour le contenu caché à l'intérieur de l'article */
+section article #content {
+  visibility: hidden;
+  text-align: left;
+}
+
+/* Style pour le carrousel */
+.carousel {
+  position: relative;
+  width: 90%;
+  max-width: 1000px;
+  overflow: hidden;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Style pour le conteneur du carrousel */
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Style pour les éléments individuels du carrousel */
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Style pour le contenu du carrousel */
+.carousel-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style pour le texte du carrousel */
+.carousel-text {
+  margin-bottom: 20px;
+  width: 70%;
+  text-align: left;
+  display: grid !important;
+}
+
+/* Style pour les titres du texte du carrousel */
+.carousel-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-family: "Abel", sans-serif;
+}
+
+/* Style pour les paragraphes du texte du carrousel */
+.carousel-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Style pour les images du carrousel */
+.carousel-image img {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+/* Style pour la carte */
+.carte {
+  width: 70%;
+}
+
+/* Style pour la section des partenaires */
+.partenaires {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Style pour les images des partenaires */
+.partenaires img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+/* Styles réactifs pour les écrans de plus de 768px de large */
+@media (min-width: 768px) {
+  .responsive-ring {
+    display: none;
+  }
+}
+
+/* Styles réactifs pour les écrans de moins de 768px de large */
+@media (max-width: 768px) {
+  .carousel-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .partenaires {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .carousel-text {
+    margin-bottom: 20px;
+  }
+
+  .carousel-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-text p {
+    font-size: 0.9rem;
+  }
+
+  .carousel-image img {
+    max-height: 200px;
+  }
+
+  .responsive-ring {
+    display: block;
+  }
+  .olympic-rings-top,
+  .olympic-rings-bottom {
+    display: none;
+  }
+}
+
+/* Styles réactifs pour les écrans de moins de 425px de large */
+@media (max-width: 425px) {
+  .partenaires {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+  }
+
+  main section:nth-child(2) article {
+    width: 80%;
+    height: 100px;
+  }
+
+  #card div:nth-child(1) {
+    gap: 25px;
+  }
+
+  section article .fleche {
+    width: 28px;
+    height: 16px;
+  }
+}

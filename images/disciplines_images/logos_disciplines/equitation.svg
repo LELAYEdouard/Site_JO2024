@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="360.01001mm"
+   height="360mm"
+   viewBox="0 0 360.01001 360"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="dessin.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-1132.126"
+     inkscape:cy="1070.2362"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-72,-72)">
+    <path
+       d="M72 146.84c0-25.02 15.79-46.35 37.95-54.58L130.21 72v16.63l49.9 24.95-8.32 16.63h-41.58v74.84c-32.15 0-58.21-26.06-58.21-58.21zm301.79-16.63v74.84c32.15 0 58.21-26.06 58.21-58.21 0-25.02-15.79-46.35-37.95-54.58L373.79 72v16.63l-49.9 24.95 8.32 16.63h41.58zm0 168.74v74.84h-41.58l-8.32 16.63 49.9 24.95V432l20.26-20.26c22.16-8.23 37.95-29.56 37.95-54.58 0-32.15-26.06-58.21-58.21-58.21zm-243.58 74.84v-74.84c-32.15 0-58.21 26.06-58.21 58.21 0 25.02 15.79 46.35 37.95 54.58L130.21 432v-16.63l49.9-24.95-8.32-16.63h-41.58zm140.43-32.32 12.02 12.02-15.18 15.18v-12.02h-12.02l9.52-9.52-51.23-51.23-48.93 48.93-5.66-5.66 125.41-125.41-28.6-28.6-70.83 70.83 25.06 25.06-5.66 5.66-47.69-47.69-9.52 9.52v-12.02h-12.02l15.18-15.18 12.02 12.02 70.83-70.83-12.02-12.02 15.18-15.18v12.02h12.02l-9.52 9.52 51.23 51.23 48.93-48.93 5.66 5.66-125.41 125.41 28.6 28.6 70.83-70.83-25.06-25.06 5.66-5.66 47.69 47.69 9.52-9.52v12.02h12.02l-15.18 15.18-12.02-12.02-70.83 70.83zm-98.56-98.57 70.83-70.83-6.01-6.01-70.83 70.83 6.01 6.01zm80.37-61.28-6.01-6.01-70.83 70.83 6.01 6.01 70.83-70.83zm5.11 146.77 70.83-70.83-6.01-6.01-70.83 70.83 6.01 6.01zm80.37-61.28-6.01-6.01-70.83 70.83 6.01 6.01 70.83-70.83z"
+       id="path5"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

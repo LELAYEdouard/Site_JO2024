@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="360.01001mm"
+   height="360mm"
+   viewBox="0 0 360.01001 360"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="dessin.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-1132.126"
+     inkscape:cy="1070.2362"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-72,-72)">
+    <path
+       d="M293.25 88.46c-6.55-4.18-12.49-8.88-18.79-16.46H229.7c-6.3 7.58-12.24 12.29-18.79 16.46l-17.26 11-19.98 68.55-62.84-62.84-5.66 5.66 54 54L72 252l87.17 87.17-54 54 5.66 5.66 62.72-62.72 19.95 68.43 17.26 11c5.91 3.77 11.3 8.28 16.06 13.41l35.83-106.17h-44.49l-2.2-14.43h22.3l3.53 3.53L274 279.67l10.21 10.21-18.47 18.48h22.14l-2.2 14.43h-14.6L234.23 432h35.39l-13.47-39.93 4.22-12.51 16.67 49.39a81.914 81.914 0 0 1 16.06-13.41l17.26-11 19.98-68.55 62.84 62.84 5.66-5.66-54-54L432 252l-87.17-87.17 54-54-5.66-5.66-62.72 62.72-19.95-68.43-17.25-11zm-92.76 16.13 14.72-9.38a89.804 89.804 0 0 0 14.63-11.64l13.79 40.87 4.22-12.51L237.08 80h29.99l-34.16 101.22h-14.6l-2.2 14.43h22.14l-18.47 18.47-12.65-12.65 7.73-50.78-4.94-.75-7.17 47.14-22.63-22.63 20.37-69.86zm-35.66 228.93L83.31 252l81.51-81.52 37.55 37.56L158.42 252l43.96 43.96-37.55 37.56zm44.94 20.53-7.15-47.01 4.39-4.39 7.71 50.65-4.95.75zm-3.86-61.62L165.49 252l40.42-40.43L246.34 252l-40.43 40.43zm32.35 15.91-18.47-18.47L230 279.66l18.47 18.47-10.21 10.21zm13.74-62-22.01-22.01 32.21-32.21 3.53 3.53h22.3l-2.2-14.43h-44.48l32.95-97.65c4.46 4.37 9.36 8.28 14.63 11.64l14.72 9.38L324 174.34l-22.61 22.61-7.15-47.01-4.94.75 7.71 50.65-12.78 12.78-18.47-18.47-10.21 10.21 18.47 18.47L252 246.34zm5.66 5.66 40.42-40.42L338.51 252l-40.42 40.42L257.66 252zm36.42 102.05-4.94-.75 7.73-50.78 4.39 4.39-7.18 47.14zm7.54-58.09L345.58 252l-43.96-43.96 37.55-37.55L420.69 252l-81.51 81.52-37.56-37.56z"
+       id="path5"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

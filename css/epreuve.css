@@ -1,0 +1,275 @@
+/**************************************************/
+/*              Titre Volley                       /
+/**************************************************/
+
+main > section:first-of-type > article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > section:first-of-type > article > h1 {
+  margin: 0%;
+  padding: 0%;
+  font-size: 5em;
+}
+/**************************************************/
+/*                    Images                       /
+/**************************************************/
+
+/*Drapeau*/
+main > section > article > figure > img {
+  width: 90px;
+  height: 60px;
+}
+/*logo volley*/
+main > section:first-of-type > article img {
+  width: 90px;
+  height: 90px;
+}
+
+/*Médailles*/
+main section:nth-of-type(2) > article > div > div > div > img {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -10px;
+}
+/*image de fond header*/
+header + img {
+  width: 100%;
+  height: auto;
+}
+
+/*moment marquants*/
+main section:nth-of-type(4) div img {
+  height: 302px;
+  width: 483px;
+  border-radius: 0.5em;
+}
+/*site de l'epreuve sur telephone*/
+main section:nth-of-type(3) div:nth-of-type(2) img {
+  width: 800px;
+  height: 400px;
+  border-radius: 0.5em;
+}
+
+/**************************************************/
+/*              Tableau des médailles              /
+/**************************************************/
+
+main section:nth-of-type(2) > article {
+  display: flex;
+  justify-content: space-between;
+}
+/*tableau des medailles*/
+main section:nth-of-type(2) > article > div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5fafb;
+  width: 50em;
+  border-radius: 3em;
+}
+/*tableau des medailles Hommes  ou Femmes*/
+main section:nth-of-type(2) > article > div > div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+main section:nth-of-type(2) > article > div > div > h3 {
+  align-self: center;
+}
+/*drapeau et medaille*/
+main section:nth-of-type(2) > article > div > div > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3em;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+}
+figure > figcaption {
+  align-self: center;
+}
+
+/**************************************************/
+/*              Moment marquant                    /
+/**************************************************/
+
+main section:nth-of-type(4) div figure {
+  flex-direction: row;
+  justify-content: space-between;
+}
+main section:nth-of-type(4) div {
+  margin: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+main section:nth-of-type(4) div figure figcaption {
+  margin: 1em;
+}
+
+/**************************************************/
+/*                     Règles                      /
+/**************************************************/
+
+main section:nth-of-type(5) figure video {
+  width: 600px;
+  height: 400px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+main section:nth-of-type(5) figure {
+  align-items: center;
+}
+
+/**************************************************/
+/*               site de l'epreuve                 /
+/**************************************************/
+
+.slider-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  height: 500px;
+  overflow: hidden;
+}
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50px;
+  margin: 0 0.2em 1em;
+}
+.menu label:hover,
+.menu label:focus {
+  background: #1c87c9;
+}
+.slide-input {
+  opacity: 0;
+}
+.slide-img {
+  width: 800px;
+  height: 400px;
+  border-radius: 0.5em;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .slide-img {
+  left: 0;
+  z-index: 100;
+  transition: left 0.65s ease-out;
+}
+
+/**************************************************/
+/*                 responsive                      /
+/**************************************************/
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    margin: 6em 0 3em 5em;
+  }
+  /*site de lepreuve*/
+  main section:nth-of-type(3) div:nth-of-type(2) {
+    display: none;
+  }
+  /*moments marquants*/
+  main section:nth-of-type(4) div figure:nth-of-type(2) figcaption {
+    order: -1;
+  }
+  /*règles*/
+  main section:nth-of-type(5) figure figcaption {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  section:first-of-type {
+    margin-top: 2em;
+  }
+  h2 {
+    text-align: center;
+  }
+  /*titre volley*/
+  header + img {
+    display: none;
+  }
+
+  main > section:first-of-type > article > h1 {
+    margin: 0%;
+    padding: 0%;
+    font-size: 2em;
+  }
+
+  main > section:first-of-type > article img {
+    width: 40px;
+    height: 40px;
+  }
+  /*tableau médailles*/
+  main section:nth-of-type(2) > article > img {
+    display: none;
+  }
+  main section:nth-of-type(2) > article > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f5fafb;
+    width: 50em;
+    border-radius: 3em;
+  }
+
+  /*site de l'epreuve*/
+  main section:nth-of-type(3) div:nth-of-type(1) {
+    display: none;
+  }
+  main section:nth-of-type(3) div:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main section:nth-of-type(3) div:nth-of-type(2) img {
+    width: 90vw;
+    height: auto;
+    margin-bottom: 1em;
+  }
+
+  /*moments marquants*/
+  main section:nth-of-type(4) div figure {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main section:nth-of-type(4) div figure {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 0 2em;
+  }
+  main section:nth-of-type(4) div figure img {
+    width: 87vw;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  main section:nth-of-type(4) div {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  /*règles*/
+  main section:nth-of-type(5) figure video {
+    width: 87vw;
+    height: auto;
+  }
+}
