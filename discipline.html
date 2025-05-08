@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Site officiel des Jeux Olympiques de Paris 2024. Découvrez les disciplines, les épreuves, les sportifs, les sites des épreuves et bien plus encore."
+    />
+    <meta
+      name="keywords"
+      content="Jeux Olympiques, Paris 2024, sports, disciplines, épreuves, sportifs, sites, paralympiques, comité"
+    />
+    <meta name="author" content="DOOM Timéo" />
+    <meta property="og:title" content="Jeux Olympiques Paris 2024" />
+    <meta
+      property="og:description"
+      content="Découvrez les disciplines, les épreuves, les sportifs, les sites des épreuves et bien plus encore sur le site officiel des Jeux Olympiques de Paris 2024."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disciplines</title>
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/discipline.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Menu hamburger pour les écrans plus petits -->
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+          <li><a class="menu__item" href="./index.html">Accueil</a></li>
+          <li>
+            <a class="menu__item" href="./discipline.html">Disciplines</a>
+          </li>
+          <li><a class="menu__item" href="./epreuve.html">Épreuves</a></li>
+          <li><a class="menu__item" href="#">Les sportifs</a></li>
+          <li><a class="menu__item" href="#">Sites des épreuves</a></li>
+          <li><a class="menu__item" href="#">Les jeux paralympiques</a></li>
+          <li><a class="menu__item" href="#">Comité Paris 2024</a></li>
+        </ul>
+      </div>
+      <!-- Menu en ligne pour les écrans plus grands -->
+      <nav>
+        <a href="./index.html"
+          ><img src="../images/logo.png" alt="logo JO 2024" title="logo"
+        /></a>
+        <ul>
+          <li><a href="./discipline.html">Disciplines</a></li>
+          <li><a href="./epreuve.html">Épreuves</a></li>
+          <li><a href="#">Les sportifs</a></li>
+          <li><a href="#">Sites des épreuves</a></li>
+          <li><a href="#">Les jeux paralympiques</a></li>
+          <li><a href="#">Comité Paris 2024</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Sports Olympiques</h1>
+      <p>Découvrez l'histoire et les règles de vos sports favori.</p>
+      <section>
+        <article class="carte" onclick="on('overlay_boxe')">
+          <img
+            src="../images/disciplines_images/logos_disciplines/boxe.svg"
+            alt=""
+            title="Icône JO boxe"
+          />
+          <h2>BOXE</h2>
+        </article>
+
+        <article class="carte" onclick="on('overlay_volley')">
+          <img
+            src="../images/disciplines_images/logos_disciplines/volley.png"
+            alt=""
+            title="Icône JO VolleyBall"
+          />
+          <h2>VOLLEY-BALL</h2>
+        </article>
+
+        <article class="carte" onclick="on('overlay_natation')">
+          <img
+            src="../images/disciplines_images/logos_disciplines/natation.svg"
+            alt=""
+            title="Icône JO Natation"
+          />
+          <h2>NATATION</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/tireALArc.svg"
+            alt=""
+            title="Icône JO Tir à l'arc"
+          />
+          <h2>TIR À L'ARC</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/pingPong.svg"
+            alt=""
+            title="Icône JO Tennis de table"
+          />
+          <h2>TENNIS DE TABLE</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/course.svg"
+            alt=""
+            title="Icône JO Course"
+          />
+          <h2>COURSE</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/basketball.svg"
+            alt=""
+            title="Icône JO Basket"
+          />
+          <h2>BASKET</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/escrime.svg"
+            alt=""
+            title="Icône JO escrime"
+          />
+          <h2>ESCRIME</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/foot.svg"
+            alt=""
+            title="Icône JO Football"
+          />
+          <h2>FOOTBALL</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/golf.svg"
+            alt=""
+            title="Icône JO Golf"
+          />
+          <h2>GOLF</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/halterophilie.svg"
+            alt=""
+            title="Icône JO Haltérophilie"
+          />
+          <h2>HALTEROPHILIE</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/judo.svg"
+            alt=""
+            title="Icône JO Judo"
+          />
+          <h2>JUDO</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/skate.svg"
+            alt=""
+            title="Icône JO Skateboard"
+          />
+          <h2>SKATEBOARD</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/surf.svg"
+            alt=""
+            title="Icône JO Surf"
+          />
+          <h2>SURF</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/aviron.svg"
+            alt=""
+            title="Icône JO Aviron"
+          />
+          <h2>AVIRON</h2>
+        </article>
+
+        <article class="carte">
+          <img
+            src="../images/disciplines_images/logos_disciplines/equitation.svg"
+            alt=""
+            title="Icône JO Equitation"
+          />
+          <h2>EQUITATION</h2>
+        </article>
+      </section>
+
+      <div id="overlay_boxe" class="overlay" onclick="off('overlay_boxe')">
+        <section>
+          <h2>La Boxe : Un Sport de Combat Légendaire</h2>
+          <h3>Historique</h3>
+          <article>
+            <p>
+              La boxe est un sport ancien, pratiqué depuis l'Antiquité. Elle a
+              fait son entrée aux Jeux Olympiques modernes en 1904, à
+              Saint-Louis. Depuis, elle a évolué avec des catégories de poids et
+              des règles précises pour protéger les athlètes. Les légendes du
+              ring incluent Muhammad Ali, Mike Tyson et Manny Pacquiao.
+            </p>
+            <img
+              src="../images/disciplines_images/overlays/boxe1904.jpg"
+              alt=""
+            />
+          </article>
+          <h3>Les Règles de Base</h3>
+          <article>
+            <img
+              src="../images/disciplines_images/overlays/regle_boxe.png"
+              alt=""
+            />
+            <p>
+              Un combat de boxe oppose deux adversaires dans un ring. Le but est
+              de marquer des points ou de remporter la victoire par KO. Les
+              combats sont divisés en rounds de 3 minutes chacun, avec des
+              pauses d'une minute entre les rounds. Les fautes incluent les
+              coups bas et les coups derrière la tête.
+            </p>
+          </article>
+          <h3>Moments Forts et Records</h3>
+          <article>
+            <ul>
+              <li>
+                Records : Le match de 1974, connu sous le nom de "Rumble in the
+                Jungle", opposant Muhammad Ali à George Foreman, est resté
+                iconique.
+              </li>
+              <li>
+                Records de victoires : Joe Louis détient un record avec 25
+                défenses consécutives de son titre mondial.
+              </li>
+              <li>
+                Moments marquants : La "Fight of the Century" de 1971 entre Ali
+                et Frazier est considérée comme l'un des plus grands combats de
+                l'histoire de la boxe.
+              </li>
+            </ul>
+            <img
+              src="../images/disciplines_images/overlays/legende_boxe.jpg"
+              alt=""
+            />
+          </article>
+          <h3>Faits Intéressants</h3>
+          <article>
+            <img src="../images/disciplines_images/overlays/ring.jpg" alt="" />
+            <p>
+              La boxe est un sport universel pratiqué dans presque tous les pays
+              du monde. Les grandes soirées de boxe attirent des millions de
+              spectateurs et génèrent des revenus colossaux. Avec l'émergence
+              des catégories féminines, la boxe connaît une popularité
+              croissante auprès d'un public plus diversifié.
+            </p>
+          </article>
+        </section>
+      </div>
+
+      <div id="overlay_volley" class="overlay" onclick="off('overlay_volley')">
+        <section>
+          <h2>Le Volleyball: Un Sport Olympique Populaire</h2>
+          <h3>Historique</h3>
+          <article>
+            <p>
+              Le volleyball a fait sa première apparition aux Jeux Olympiques en
+              1964 à Tokyo. Depuis, il a évolué avec l'ajout du beach-volley en
+              1996, à Atlanta. Parmi les grandes nations de ce sport, on
+              retrouve la Pologne, la France et les États-Unis.
+            </p>
+            <img src="../images/disciplines_images/overlays/1964.png" alt="" />
+          </article>
+          <h3>Les Règles de Base</h3>
+          <article>
+            <img
+              src="../images/disciplines_images/overlays/image006.png"
+              alt=""
+            />
+            <p>
+              Le volleyball oppose deux équipes de 6 joueurs. L'objectif est de
+              remporter 3 sets, chaque set durant entre 18 et 20 minutes. Une
+              faute commune est la "double touche", où un joueur touche deux
+              fois de suite le ballon.
+            </p>
+          </article>
+          <h3>Moments Forts et Records</h3>
+
+          <article>
+            <ul>
+              <li>
+                Records : En 2018, l'attaquante italienne Paola Egonu a marqué
+                45 points à seulement 19 ans.
+              </li>
+              <li>
+                Records de victoires : L’URSS détient un record avec 12
+                médailles olympiques.
+              </li>
+              <li>
+                Moments marquants : La finale masculine des Jeux de 2012 entre
+                la Russie et le Brésil est restée dans les mémoires pour son
+                intensité et la spectaculaire remontée des Russes pour décrocher
+                l'or.
+              </li>
+            </ul>
+            <img
+              src="../images/disciplines_images/overlays/Joueur.png"
+              alt=""
+            />
+          </article>
+          <h3>Faits Intéressants</h3>
+          <article>
+            <img
+              src="../images/disciplines_images/overlays/tourEf.png"
+              alt=""
+            />
+            <p>
+              Le volleyball est l'un des sports les plus populaires aux Jeux
+              Olympiques, attirant un public international avec des millions de
+              téléspectateurs. Depuis 1964, il a évolué avec des améliorations
+              dans les techniques, les stratégies et la professionnalisation des
+              joueurs. De plus, le succès du beach-volley a permis de
+              populariser davantage ce sport auprès d'un nouveau public.
+            </p>
+          </article>
+        </section>
+      </div>
+
+      <div
+        id="overlay_natation"
+        class="overlay"
+        onclick="off('overlay_natation')"
+      >
+        <section>
+          <h2>La Natation : Un Sport Aquatique Iconique</h2>
+          <h3>Historique</h3>
+          <article>
+            <p>
+              La natation est l'un des sports les plus anciens, pratiqué depuis
+              l'Antiquité. Elle a fait son entrée aux Jeux Olympiques modernes
+              dès leur première édition en 1896, à Athènes. Les disciplines ont
+              évolué pour inclure différents styles comme le crawl, le dos, la
+              brasse et le papillon. Des légendes comme Michael Phelps et Katie
+              Ledecky ont marqué l'histoire de ce sport.
+            </p>
+            <img
+              src="../images/disciplines_images/overlays/natation1896.png"
+              alt=""
+            />
+          </article>
+          <h3>Les Règles de Base</h3>
+          <article>
+            <img
+              src="../images/disciplines_images/overlays/regle_natation.jpg"
+              alt=""
+            />
+            <p>
+              La natation comprend des courses dans différents styles et sur
+              diverses distances, allant de 50 mètres à 1500 mètres. Les
+              compétitions se déroulent en piscine olympique de 50 mètres, et
+              chaque style a ses propres règles spécifiques. Par exemple, en
+              brasse, les mouvements des bras et des jambes doivent être
+              synchronisés.
+            </p>
+          </article>
+          <h3>Moments Forts et Records</h3>
+          <article>
+            <ul>
+              <li>
+                Records : Michael Phelps détient le record du plus grand nombre
+                de médailles olympiques avec 28 médailles, dont 23 en or.
+              </li>
+              <li>
+                Records de performances : Katie Ledecky a établi plusieurs
+                records du monde en longue distance, notamment sur 800 et 1500
+                mètres.
+              </li>
+              <li>
+                Moments marquants : La finale du relais 4x100 mètres nage libre
+                masculin en 2008, où les États-Unis ont battu la France dans un
+                final spectaculaire, reste gravée dans les mémoires.
+              </li>
+            </ul>
+            <img
+              src="../images/disciplines_images/overlays/legende_natation.jpg"
+              alt=""
+            />
+          </article>
+          <h3>Faits Intéressants</h3>
+          <article>
+            <img
+              src="../images/disciplines_images/overlays/piscine.jpg"
+              alt=""
+            />
+            <p>
+              La natation est l'un des sports les plus populaires des Jeux
+              Olympiques, attirant des millions de téléspectateurs. Les
+              innovations dans les combinaisons et les techniques de nage ont
+              permis d'améliorer les performances au fil des décennies. Avec des
+              événements comme la natation artistique et le plongeon, ce sport
+              continue de captiver un large public.
+            </p>
+          </article>
+        </section>
+      </div>
+
+      <!-- Section pied de page -->
+    <footer>
+      <section>
+        <!-- Logo et bouton de retour en haut de page -->
+        <img src="../images/logo.png" title="logo JO" alt="logo JO" />
+        <a href="#">
+          <img
+            src="../images/fleche.png"
+            alt="flèche pour remonter en haut de la page"
+            title="icône flèche"
+          />
+        </a>
+      </section>
+      <section>
+        <!-- Plan du site -->
+        <div class="plan">
+          <h3>Plan du site</h3>
+          <ul>
+            <li><a href="./index.html">Accueil</a></li>
+            <li><a href="./discipline.html">Discipline</a></li>
+            <li><a href="./epreuve.html">Épreuve</a></li>
+            <li><a href="#">Les sportifs</a></li>
+            <li><a href="#">Sites des épreuves</a></li>
+            <li><a href="#">Jeux paralympiques</a></li>
+            <li><a href="#">Comité Paris 2024</a></li>
+          </ul>
+        </div>
+        <!-- Informations de contact -->
+        <div>
+          <h3>Nous contacter</h3>
+          <address>
+            <a href="mailto:timeodoom@gmail.com">mail@mail.com</a>
+          </address>
+        </div>
+      </section>
+      <!-- Avis de droit d'auteur -->
+      <p>
+        © 2024 Olympiques. Tous droits réservés. (site web fictif réalisé par
+        Timéo DOOM - Edouard LE LAY - Louennig CORREC)
+      </p>
+      <section>
+        <!-- Liens légaux et politiques -->
+        <ul>
+          <li>Gestion des cookies</li>
+          <li>Données personnelles</li>
+          <li>Conditions générales</li>
+          <li>Mentions légales</li>
+        </ul>
+      </section>
+    </footer>
+
+      <script src="../js/script.js"></script>
+    </main>
+  </body>
+</html>
